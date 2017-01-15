@@ -1,0 +1,38 @@
+.input {
+    padding: 2px;
+    border: 1px solid #cccccc;
+    flex-shrink: 20;
+    min-height: 0;
+}
+.label{
+    flex-shrink: 20;
+    min-height: 0;
+}
+.form{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.h3{
+    flex-shrink: 20;
+    min-height: 0;
+}
+.button{
+    flex-grow: 20;
+    padding: 2px;
+    min-height: 5px;
+}
+.select{
+    flex-grow: 20;
+    padding: 2px;
+    min-height: 5px;
+}
+.select{
+    flex-grow: 20;
+    padding: 2px;
+    min-height: 5px;
+}
+

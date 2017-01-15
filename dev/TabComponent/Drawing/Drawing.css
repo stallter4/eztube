@@ -1,0 +1,24 @@
+.svg {
+    background-color: darkcyan;
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    overflow: hidden;
+}
+.drawing{
+    flex: 1;
+    width: 100%;
+    max-height: calc(100% - 41px);
+    overflow: hidden;
+}
+
+.rect{
+    stroke-width: 1;
+    fill:rgb(0,0,255);
+    fill-opacity:0.1;
+    stroke:rgb(0,0,0);
+    vector-effect: non-scaling-stroke;
+}

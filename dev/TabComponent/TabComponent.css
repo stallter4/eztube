@@ -1,0 +1,22 @@
+.drawingWrapper {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+}
+.TabButtons{
+    display: flex;
+    display: -webkit-flex;
+}
+.input{
+    visibility: hidden;
+    width: 0.1px;
+    height: 0.1px;
+}
+.tabButton{
+    padding: 0px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+
